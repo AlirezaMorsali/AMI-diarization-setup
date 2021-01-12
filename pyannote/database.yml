@@ -6,20 +6,26 @@ Protocols:
         train:
             uri: ../lists/train.meetings.txt
             annotation: _../only_words/rttms/train/{uri}.rttm
+            annotated: ../uems/train.uem
         development:
             uri: ../lists/dev.meetings.txt
             annotation: _../only_words/rttms/dev/{uri}.rttm
+            annotated: ../uems/dev.uem
         test:
             uri: ../lists/test.meetings.txt
             annotation: _../only_words/rttms/test/{uri}.rttm
- 
+            annotated: ../uems/test.uem
+
       word_and_vocalsounds:
         train:
             uri: ../lists/train.meetings.txt
             annotation: _../word_and_vocalsounds/rttms/train/{uri}.rttm
+            annotated: ../uems/train.uem
         development:
             uri: ../lists/dev.meetings.txt
             annotation: _../word_and_vocalsounds/rttms/dev/{uri}.rttm
+            annotated: ../uems/dev.uem
         test:
             uri: ../lists/test.meetings.txt
             annotation: _../word_and_vocalsounds/rttms/test/{uri}.rttm
+            annotated: ../uems/test.uem
